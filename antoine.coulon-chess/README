@@ -1,0 +1,22 @@
+#########
+# CHESS #
+#########
+
+Build:
+    ./install.sh
+Run:
+    ./run.sh [options]
+Test suite:
+    ./testsuite.sh
+
+Allowed options:
+  -h [ --help ]            show usage
+  --pgn arg                path to the PGN game file
+  -l [ --listerners ] args list of paths to listener plugins
+  --perft arg              path to a perft file
+  -d [ --debug ]           play a game of chess
+
+## Authors:
+* antoine.coulon
+* dorian.vinai
+* william.chow

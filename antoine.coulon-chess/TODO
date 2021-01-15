@@ -1,0 +1,48 @@
+# TDL
+
+### Fixes
+
+- [X] fix getKingMove
+    - [X] fix castling
+- [ ] fix white player on league
+
+### Features
+
+- [ ] selectKingSafeMoves(std::vector<Move> moves)
+- [ ] getKingMove horrible fonction
+- [X] PGN
+    - [X] parser PGN
+    - [X] PGN main
+- [X] parser UCI
+    - [X] parser FEN
+    - [X] Communication UCI
+- [X] split board et move
+- [ ] check if Checkmate (methode ACU)
+- [ ] DangerZone
+    - [X] getPawnDangerZone (move de kill)
+    - [X] Fix danger zone (black + pawn diag)
+- [X] Fonction euristic d'eval simpliste
+- [X] Castling + en passant
+- [ ] release with opti vs Debug with -g
+
+### Optimisation
+
+- [X] remove used bit board
+- [X] enum trop lourd
+
+### Structure
+
+- [X] Split board
+
+```
+8  00 10 20 30 40 50 60 70
+7  01 11 21 31 41 51 61 71
+6  02 12 22 32 42 52 62 72
+5  03 13 23 33 43 53 63 73
+4  04 14 24 34 44 54 64 74
+3  05 15 25 35 45 55 65 75
+2  06 16 26 36 46 56 66 76
+1  07 17 27 37 47 57 67 77
+   A  B  C  D  E  F  G  H
+```
+
