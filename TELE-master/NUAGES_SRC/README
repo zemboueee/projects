@@ -1,0 +1,8 @@
+Pour ce projet, nous avons privilégié la detection de nuages, et utilisé deux
+classes pour détecter ces derniers. Nous avons 4 classes au total.
+
+Code couleur des images de debug:
+rouge: classe nuage forte (masscenter 255)
+magenta: classe nuage faible (masscenter 180)
+cyan: classe autre faible (masscenter 110)
+bleu: class autre forte (masscenter 40)
