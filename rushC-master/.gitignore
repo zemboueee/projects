@@ -1,0 +1,12 @@
+*~
+*.swp
+*.o
+*.a
+*.d
+*.so
+*.swo
+*.class
+*.log
+*.core
+*.out
+!/.gitignore

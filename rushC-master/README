@@ -1,0 +1,65 @@
+***** RUSH C *****
+EPITA 2021
+AUTHORS: dorian.vinai, matthieu.david, william.chow, 
+Description: Rush C is a game about rushing for C
+made in C using SDL
+
+** How to Use:
+
+* Compile
+42sh$ make
+
+* How to Play
+
+On the main menu, press space to play or escape to quit.
+You can then control the player using the Arrow keys and
+the space to jump. You will encounter various dangers
+and enemies. Life is represented by hearths.
+When unlocked, you can shoot bullets using the S key and
+jump higher with some power ups. Try to beat the game and
+you will be rewarded...
+
+* Controls :
+Arroy Keys -- Move Right and Left
+Space Bar --- Jump
+S ----------- Shoot
+Escape ------ Quit the Game
+
+* Features:
+** Mendatory:
+- A Player
+- Multiple rooms (levels)
+- Multiple ways to hard the player
+-- Multiple ennemies
+-- Spikes
+-- Lava
+- A Game Over
+
+** Easy:
+- Title screen
+- Invincibility frames
+- Hero evolution
+-- Graphical evolution
+-- Ability evolution
+- Map powerups
+-- Gun
+-- Higher jump
+-- Coke to restore life
+
+** Medium
+- Gravity
+-- For the player
+-- For the enemies
+- Jumps
+- Loot
+-- Coke to restore life
+- Cheat codes
+-- N for next level
+
+** Custom
+- A Health Bar
+- Destructible environment
+- Shooting
+- Multiple ways for the enemies to die
+- Modular maps (with different textures for each maps)
+

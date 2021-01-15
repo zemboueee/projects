@@ -1,0 +1,29 @@
+--- RUSH COKE TODO ---
+MAP: Done
+*Implement map.h structures: Done
+*Implement map parser: Done
+
+Display: Done
+*Display Map: Done
+**Display Blocks: Done
+**Display Entities: Done
+
+*Update Frames: Done
+
+*Sound: Aborted
+** Including Sound Library: Aborted
+
+*Physics: Done
+**Gravity: Done
+****Fixing Collision: Done
+**Bullets: Done
+
+*Game: Done
+**Damage: Done
+**Menu: Done
+**Game Over: Done
+**Finish Screen: Done
+**Pickups: Done
+****Drop: Done
+
+*Coke: Ok
